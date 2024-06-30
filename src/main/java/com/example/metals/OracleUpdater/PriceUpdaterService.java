@@ -39,7 +39,6 @@ public class PriceUpdaterService implements Runnable {
     }
 
     private BigInteger getPriceFromExternalSource(String metal) {
-
-        return BigInteger.valueOf(1800); // Пример цены в центах
+        return BigInteger.valueOf(1800);
     }
 }
